@@ -4,7 +4,7 @@ Viewpager + Loop + Water mark + Right / Left Clamp
 
 ## Setup
 ```java
-compile 'com.jaekwon.loopviewpagerlayout.lib:lib:0.0.1'
+compile 'com.jaekwon.loopviewpagerlayout.lib:lib:0.1'
 
 ```
 
