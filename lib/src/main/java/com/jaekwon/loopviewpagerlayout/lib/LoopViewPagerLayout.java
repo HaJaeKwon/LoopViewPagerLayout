@@ -98,10 +98,16 @@ public class LoopViewPagerLayout extends RelativeLayout {
     }
 
     public void setRightClampSize(int dp_width, int dp_height) {
-        rightClamp.setLayoutParams(new LayoutParams(dp2px(dp_width), dp2px(dp_height)));
+        LayoutParams rightClampParams = new LayoutParams(dp2px(dp_width), dp2px(dp_height));
+        rightClampParams.addRule(ALIGN_PARENT_END);
+        rightClampParams.addRule(CENTER_VERTICAL);
+        rightClamp.setLayoutParams(rightClampParams);
     }
     public void setLeftClampSize(int dp_width, int dp_height) {
-        leftClamp.setLayoutParams(new LayoutParams(dp2px(dp_width), dp2px(dp_height)));
+        LayoutParams leftClampParams = new LayoutParams(dp2px(dp_width), dp2px(dp_height));
+        leftClampParams.addRule(ALIGN_PARENT_START);
+        leftClampParams.addRule(CENTER_VERTICAL);
+        leftClamp.setLayoutParams(leftClampParams);
     }
     public void setRightClampGone() {
         rightClamp.setVisibility(View.GONE);
@@ -138,6 +144,12 @@ public class LoopViewPagerLayout extends RelativeLayout {
         waterMarkParams.width = dp2px(dp_width);
         waterMarkParams.height = dp2px(dp_height);
 //        waterMark.setLayoutParams(waterMarkParams);
+    }
+    public void setWaterMarkGone() {
+        waterMark.setVisibility(View.GONE);
+    }
+    public void setWaterMarkVisible() {
+        waterMark.setVisibility(View.VISIBLE);
     }
     public void setWaterMarkLocation(int flag) {
 //        waterMarkParams.removeRule(CENTER_IN_PARENT);

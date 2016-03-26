@@ -1,4 +1,22 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+publish {
+    userOrg = 'hazxz'
+    groupId = 'com.jaekwon.loopviewpagerlayout.lib'
+    artifactId = 'lib'
+    publishVersion = '0.0.1'
+    desc = 'initial step'
+    website = 'https://github.com/HaJaeKwon/LoopViewPagerLayout'
+}
 
 android {
     compileSdkVersion 23
@@ -22,4 +40,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
