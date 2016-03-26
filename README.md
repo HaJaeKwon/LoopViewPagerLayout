@@ -60,9 +60,9 @@ layout.setWaterMarkVisible();
 ```
 
 ## Thanks
-[Picasso](https://github.com/square/picasso) : A powerful image downloading and caching library for Android
+[square/Picasso](https://github.com/square/picasso) : A powerful image downloading and caching library for Android
 
-[LoopingViewPager](https://github.com/imbryk/LoopingViewPager) : An android ViewPager extension allowing infinite scrolling.
+[imbruk/LoopingViewPager](https://github.com/imbryk/LoopingViewPager) : An android ViewPager extension allowing infinite scrolling.
 
 ## License
 
