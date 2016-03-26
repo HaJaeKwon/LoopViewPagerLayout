@@ -2,10 +2,9 @@
 
 Viewpager + Loop + Water mark + Right / Left Clamp
 
-<img src="./app/src/main/res/example1.png" width="250">
-![example1](./app/src/main/res/example1.png =250x)
-![example2](./app/src/main/res/example2.png)
-![example3](./app/src/main/res/example3.png)
+<img src="./app/src/main/res/example1.png" width="200">
+<img src="./app/src/main/res/example2.png" width="200">
+<img src="./app/src/main/res/example3.png" width="200">
 
 
 ## Setup
