@@ -3,9 +3,9 @@
 Viewpager + Loop + Water mark + Right / Left Clamp
 
 
-![example1](./app/src/main/res/drawable/example1.png)
-![example2](./app/src/main/res/drawable/example2.png)
-![example3](./app/src/main/res/drawable/example3.png)
+![example1](./app/src/main/res/example1.png)
+![example2](./app/src/main/res/example2.png)
+![example3](./app/src/main/res/example3.png)
 
 
 ## Setup
