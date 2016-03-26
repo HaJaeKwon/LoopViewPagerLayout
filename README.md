@@ -3,7 +3,7 @@
 Viewpager + Loop + Water mark + Right / Left Clamp
 
 
-![example1](./app/src/main/res/example1.png)
+![example1](./app/src/main/res/example1.png =193x329)
 ![example2](./app/src/main/res/example2.png)
 ![example3](./app/src/main/res/example3.png)
 
