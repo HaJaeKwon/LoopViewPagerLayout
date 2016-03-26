@@ -61,6 +61,7 @@ layout.setWaterMarkVisible();
 
 ## Thanks
 [Picasso](https://github.com/square/picasso)
+
 [LoopingViewPager](https://github.com/imbryk/LoopingViewPager)
 
 ## License
